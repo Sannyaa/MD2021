@@ -83,12 +83,13 @@ body {
     transform: translateY(-50%);
 } */
 
-.member-button {
+
+/* .member-button {
     padding: 10px 15px;
     font-size: 25px;
     font-weight: 500;
     margin-top: 10px;
-}
+} */
 
 
 /* FAQs */
@@ -213,7 +214,9 @@ a:focus {
 }
 
 .img-text h2 {
-    font-size: 30px;
+    font-size: 1.8%;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 em {
@@ -321,7 +324,7 @@ em {
 }
 
 .footer-icon {
-    margin: 5% 3.5%;
+    margin: 5% 4%;
     size: 100px;
 }
 
@@ -334,15 +337,21 @@ em {
 /*Media Query Breakpoints*/
 
 @media (max-width: 1028px) {
+    /* .member-button {
+        padding: 10px 15px;
+        font-size: 25px;
+        font-weight: 500;
+        margin-top: 10px;
+    } */
     .feature-heading {
         line-height: 1;
         letter-spacing: -.05rem;
-        font-size: 2.2rem;
+        font-size: 2rem;
         margin-top: 30px;
         padding-bottom: 10px;
     }
     .feature-text {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         font-weight: 300;
         line-height: 1.2;
         letter-spacing: -.05rem;
