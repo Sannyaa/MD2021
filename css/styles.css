@@ -43,7 +43,7 @@ body {
 /* Carousel */
 
 #intro .carousel-item {
-    height: 40rem;
+    height: 35rem;
     background: #222;
     color: white;
     position: relative;
@@ -51,7 +51,7 @@ body {
 
 #intro .container {
     position: absolute;
-    bottom: 20%;
+    bottom: 8%;
     left: 0;
     right: 0;
     padding: 0 50px 50px;
@@ -187,7 +187,7 @@ body {
 }
 
 .container-fluid {
-    padding: 3% 11%;
+    padding: 3% 10%;
 }
 
 a {
@@ -249,6 +249,10 @@ em {
 
 .text-align {
     text-align: left;
+}
+
+.container-payment {
+    margin: 3% 4%;
 }
 
 
@@ -313,10 +317,11 @@ em {
 #contact {
     background: cadetblue;
     text-align: center;
+    padding-top: 20px;
 }
 
 .footer-icon {
-    margin: 30px;
+    margin: 5% 3.5%;
     size: 100px;
 }
 
@@ -345,5 +350,8 @@ em {
     }
     .text-align {
         text-align: center;
+    }
+    #payment img {
+        width: 600px;
     }
 }
