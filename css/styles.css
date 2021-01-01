@@ -49,6 +49,10 @@ body {
     position: relative;
 }
 
+#intro h1 {
+    margin: 20px;
+}
+
 #intro .container {
     position: absolute;
     bottom: 8%;
@@ -182,7 +186,7 @@ body {
 
 #testimonials h1 {
     margin: 2% 0 0;
-    padding: 6% 0 2%;
+    padding: 6% 4% 3%;
     color: #fff;
     font-size: 2.5rem;
 }
@@ -254,6 +258,10 @@ em {
     text-align: left;
 }
 
+.text-align-right {
+    text-align: end;
+}
+
 .container-payment {
     margin: 3% 4%;
 }
@@ -298,21 +306,8 @@ em {
 }
 
 .box-margin {
-    margin: 7% 0;
+    margin: 7%;
 }
-
-
-/* .colourful-box {
-    background-color: cadetblue;
-    padding: 20px;
-    margin: 10px;
-    border-radius: 10px;
-} */
-
-
-/* #payment p {
-    font-size: 1.3rem;
-} */
 
 
 /* Contact */
@@ -324,7 +319,7 @@ em {
 }
 
 .footer-icon {
-    margin: 5% 4%;
+    margin: 5% 5% 8%;
     size: 100px;
 }
 
@@ -362,5 +357,8 @@ em {
     }
     #payment img {
         width: 600px;
+    }
+    .box-margin {
+        margin: 7% 0;
     }
 }
