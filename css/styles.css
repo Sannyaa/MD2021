@@ -74,6 +74,10 @@ body {
     opacity: 0.3;
 }
 
+#faqs img {
+    width: 100%;
+}
+
 
 /* .carousel-inner img {
     width: 100%;
@@ -315,11 +319,11 @@ em {
 #contact {
     background: cadetblue;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 1.2%;
 }
 
 .footer-icon {
-    margin: 5% 5% 8%;
+    margin: 5% 3%;
     size: 100px;
 }
 
