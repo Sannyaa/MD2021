@@ -84,6 +84,7 @@ body {
     margin-top: 1rem;
     margin-bottom: 1rem;
     color: black;
+    border-radius: 5px;
 }
 
 .logo {
@@ -430,9 +431,6 @@ em {
     .box-margin {
         margin: 7% 0;
     }
-    #faqs {
-        background-image: url('../images/faqs2.png');
-    }
     #testimonials .card-body {
         margin: 1.2rem auto;
     }
@@ -441,6 +439,9 @@ em {
     }
     #faqs {
         background-image: url('../images/faqs2.png');
-        height: 250vh;
+        height: 100vh;
+    }
+    .member-btn {
+        font-size: 1rem;
     }
 }
