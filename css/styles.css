@@ -53,6 +53,7 @@ body {
 
 #intro h1 {
     margin: 20px;
+    font-weight: 400;
 }
 
 #intro .container {
@@ -76,7 +77,36 @@ body {
     opacity: 0.3;
 }
 
-#faqs img {
+.member-btn {
+    padding: 10px 20px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-top: 2rem;
+    color: black;
+}
+
+.logo {
+    width: 20%;
+}
+
+#intro p {
+    font-size: 1.2rem;
+}
+
+
+/* FAQs */
+
+
+/* #faqs img {
+    width: 100%;
+} */
+
+#faqs {
+    background-image: url('../images/faqs.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 350vh;
     width: 100%;
 }
 
@@ -94,17 +124,7 @@ body {
 } */
 
 
-/* .member-button {
-    padding: 10px 15px;
-    font-size: 25px;
-    font-weight: 500;
-    margin-top: 10px;
-} */
-
-
-/* FAQs */
-
-.card,
+/* .card,
 .card-header {
     background-color: transparent !important;
     border: none !important;
@@ -179,6 +199,7 @@ body {
     font-weight: 600;
     margin-bottom: 0;
 }
+ */
 
 
 /* Testimonials */
@@ -201,7 +222,8 @@ body {
     padding: 3% 10%;
 }
 
-a {
+
+/* a {
     text-decoration: none;
 }
 
@@ -227,7 +249,7 @@ a:focus {
     font-size: 1.8%;
     padding-right: 10px;
     padding-left: 10px;
-}
+} */
 
 em {
     font-size: 1.2rem;
@@ -240,7 +262,13 @@ em {
     border-radius: 15px;
     margin: auto;
     text-align: left;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+}
+
+#testimonials div.card {
+    background: none;
+    text-decoration: none;
+    border: none;
 }
 
 .card-body p {
@@ -336,7 +364,36 @@ em {
 
 .contact-text {
     font-weight: 400;
-    font-size: 1.3rem;
+    font-size: 2rem;
+    line-height: 1;
+    letter-spacing: -.05rem;
+    padding-bottom: 10px;
+}
+
+.num {
+    font-size: 1.2rem;
+}
+
+.text1 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.text2 {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.social-text {
+    font-size: 1.2rem;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.border {
+    border: 1px solid black !important;
+    padding: 1rem;
 }
 
 
@@ -372,7 +429,17 @@ em {
     .box-margin {
         margin: 7% 0;
     }
-    #faqs img {
-        background: url('../images/faqs2.png');
+    #faqs {
+        background-image: url('../images/faqs2.png');
+    }
+    #testimonials .card-body {
+        margin: 1.2rem auto;
+    }
+    #contact {
+        margin: 25px auto;
+    }
+    #faqs {
+        background-image: url('../images/faqs2.png');
+        height: 300vh;
     }
 }
