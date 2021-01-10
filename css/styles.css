@@ -61,7 +61,7 @@ body {
     bottom: 8%;
     left: 0;
     right: 0;
-    padding: 0 0 50px;
+    padding: 0 10px 50px;
     text-align: center;
     /* padding-right: 50px; */
 }
@@ -439,9 +439,9 @@ em {
     }
     #faqs {
         background-image: url('../images/faqs2.png');
-        height: 100vh;
+        height: 150vh;
     }
     .member-btn {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 }
