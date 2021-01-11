@@ -20,6 +20,10 @@ body {
     width: -webkit-fill-available;
 }
 
+.white-section {
+    background: white;
+}
+
 
 /* Navigation */
 
@@ -279,7 +283,7 @@ em {
 }
 
 .container-payment {
-    margin: 3% 4%;
+    padding: 3% 4%;
 }
 
 
@@ -323,7 +327,7 @@ em {
 }
 
 .box-margin {
-    margin: 7%;
+    padding: 6% 5% 1%;
 }
 
 
@@ -439,14 +443,14 @@ em {
     } */
     #testimonials p {
         font-weight: 400;
-        font-size: 1.2rem;
+        font-size: 0.9rem;
         /* line-height: 1.5; */
         /* letter-spacing: -.04rem; */
     }
     .card img {
         width: 20%;
         border-radius: 100%;
-        margin: 10px 20px 20px;
+        margin: 10px 20px 20px 0;
     }
     em {
         font-size: 1rem;
