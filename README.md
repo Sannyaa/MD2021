@@ -1,1 +1,1 @@
-# Draft1
+# IAESTE Manipal Membership Drive Webpage
